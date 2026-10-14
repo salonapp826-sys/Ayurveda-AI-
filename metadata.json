@@ -1,0 +1,6 @@
+{
+  "name": "Nexora Beauty Collective",
+  "description": "Luxury Ayurvedic hair spas, precision haircuts, 24K gold facials, and 100% original beauty products across Mumbai, Delhi, Bengaluru, and Udaipur.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

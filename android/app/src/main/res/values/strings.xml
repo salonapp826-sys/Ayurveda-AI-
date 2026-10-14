@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Nexora Salon</string>
+    <string name="tagline">Salon जा रहे हो? NEXORA किया क्या?</string>
+    <string name="whatsapp_number">+919820145890</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_services">Services</string>
+    <string name="nav_boutique">Boutique</string>
+    <string name="nav_bookings">My Bookings</string>
+    <string name="nav_profile">Profile</string>
+</resources>
