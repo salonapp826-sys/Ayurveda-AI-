@@ -115,6 +115,30 @@ export interface AIAdvisorResponse {
   lifestyleWellnessTip: string;
 }
 
+export interface ExpertQARequest {
+  question: string;
+  hairType?: string;
+  scalpCondition?: string;
+  skinType?: string;
+}
+
+export interface ExpertQAResponse {
+  question: string;
+  answer: string;
+  routineRecommendations: {
+    morning?: string;
+    evening?: string;
+    weekly?: string;
+  };
+  dosAndDonts: {
+    dos: string[];
+    donts: string[];
+  };
+  suggestedSalonRitual?: string;
+  expertName?: string;
+  expertTitle?: string;
+}
+
 export interface GiftVoucher {
   id: string;
   voucherCode: string;

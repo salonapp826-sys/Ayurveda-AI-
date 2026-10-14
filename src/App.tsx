@@ -317,6 +317,9 @@ export default function App() {
         loyaltyPoints={availableLoyaltyPoints}
         onOpenAuth={handleOpenAuth}
         onOpenAndroidInspector={() => setAndroidModalOpen(true)}
+        onSelectTreatmentForBooking={handleOpenBookingWithTreatment}
+        onSelectArtisanForBooking={handleOpenBookingWithArtisan}
+        onAddToCart={handleAddToCart}
       />
 
       {/* Main View Area */}
